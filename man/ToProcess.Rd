@@ -56,13 +56,13 @@ else
    #Setting parameters to functions
    #------------------------------------------------#
    r.s <- matrix(c(0,0,0,1,
-		   0,0,0,1,
-		   0,0,0,1,
-		   1,1,1,0),4,4,byrow=TRUE)
+                   0,0,0,1,
+                   0,0,0,1,
+                   1,1,1,0),4,4,byrow=TRUE)
 
    r.ie <- matrix(c(0,0,1,			
-		    0,1,0,
-		    0,0,0),3,3,byrow=TRUE)
+                    0,1,0,
+                    0,0,0),3,3,byrow=TRUE)
 		    
    modo <- c(parMode,parMode,parMode,parMode)
    bv <- c(pI,pI,pI,pI)
@@ -84,9 +84,9 @@ else
     }
     if (pI==6){#Case 3: six indicators per construct, all outer weights equal
     wei.ex <- matrix (c(0.35,0.35,0.35,0.35,0.35,0.35,
-                                  0.35,0.35,0.35,0.35,0.35,0.35,
-                                  0.35,0.35,0.35,0.35,0.35,0.35),             
-                                  3,6,byrow=TRUE)
+                        0.35,0.35,0.35,0.35,0.35,0.35,
+                        0.35,0.35,0.35,0.35,0.35,0.35),             
+                        3,6,byrow=TRUE)
     wei.en <- matrix(c(0.35,0.35,0.35,0.35,0.35,0.35),1,6,byrow=TRUE)
     }
     if (pI==8){#Case 4: eight indicators per construct, all outer weights equal
@@ -101,29 +101,29 @@ else
    
     if (pI==2) {#Case 1: two indicators per construct, all differents
     wei.ex <- matrix(c(0.8,0.4,
-                      0.4,0.8,
-                      0.1,0.9),3,2,byrow=TRUE)
+                       0.4,0.8,
+                       0.1,0.9),3,2,byrow=TRUE)
     wei.en <- matrix(c(0.4,0.8),1,2,byrow=TRUE)
     }
     if (pI==4){#Case 2: four indicators per construct, all differents
     wei.ex <- matrix(c(0.2,0.3,0.5,0.7,
-		                   0.2,0.4,0.6,0.5,
+                       0.2,0.4,0.6,0.5,
                        0.3,0.5,0.7,0.2),3,4,byrow=TRUE)
     wei.en <- matrix(c(0.2,0.3,0.5,0.5),1,4,byrow=TRUE)
    
     }
     if (pI==6){#Case 3: six indicators per construct, all differents
      wei.ex <- matrix(c(0.5,0.3,0.4,0.3,0.5,0.1,
-	                   0.2,0.4,0.6,0.4,0.2,0.3,
-	                   0.3,0.6,0.2,0.3,0.4,0.2),
-                                 3,6,byrow=TRUE)
+                        0.2,0.4,0.6,0.4,0.2,0.3,
+                        0.3,0.6,0.2,0.3,0.4,0.2),
+                        3,6,byrow=TRUE)
      wei.en <- matrix(c(0.5,0.3,0.4,0.3,0.5,0.1),1,6,byrow=TRUE)
      }
     if (pI==8){#Case 4: eight indicators per construct, all differents
      wei.ex <- matrix(c(0.3,0.3,0.4,0.3,0.4,0.3,0.2,0.3,
-		                   0.3,0.3,0.4,0.3,0.2,0.3,0.4,0.2,
-                       0.4,0.5,0.4,0.3,0.2,0.1,0.3,0.2),
-                       3,8,byrow=TRUE)
+                        0.3,0.3,0.4,0.3,0.2,0.3,0.4,0.2,
+                        0.4,0.5,0.4,0.3,0.2,0.1,0.3,0.2),
+                        3,8,byrow=TRUE)
      wei.en <- matrix(c(0.3,0.3,0.4,0.3,0.4,0.3,0.2,0.3),1,8,byrow=TRUE)
     }
 }

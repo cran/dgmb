@@ -1,7 +1,7 @@
 ToProcess <-
 function(N,n,parMode,pI,eq){
 
-require (MASS)
+#require (MASS)
 cat(paste("\nInputs " , N," ",n ," ",  parMode,"  ",pI, "  ",eq,"\n")) 
 if ( is.na(N) || is.na(n))
 cat ("N and n values must be an integer greater than zero (try again)")

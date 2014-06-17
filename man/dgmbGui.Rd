@@ -65,6 +65,8 @@ Dalgaard's Peter (2002) \emph{Rnews: The Newsletter of the R Project}, Vol. 3.
 
 Hanafi, M. 2007. PLS path modeling: Computation of latent variables with the estimation mode B. \emph{Computational Statistics}, \bold{22}, 275-292.
 
+Martinez-Ruiz, A., Aluja-Banet, T. (2013) Two-step PLS path modeling mode B: Nonlinear and interaction effects between formative constructs. In \emph{New Perspectives in Partial Least Squares and Related Methods}, eds H. Abdi, W. Chin, V. Esposito Vinzi, G. Russolillo, and L. Trinchera, Springer Proceedings in Mathematics and Statistics, volume \bold{56}, pp. 187-199.
+
 R Development Core Team (2011).\emph{R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria.} ISBN 3-900051-07-0, \url{http://www.r-project.org/}
 
 Tenenhaus, M., Esposito Vinzi, V., Chatelin, Y. M., and Lauro, C. 2005. PLS path modeling. \emph{Computational Statistics & Data Analysis}, \bold{48}, 159-205.
