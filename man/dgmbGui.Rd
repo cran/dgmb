@@ -9,19 +9,7 @@
 \details{The following main window is displayed in R:
 \cr
 \cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
+\figure{dgmbGui.png}{Options: width=0.5in}
 \cr
 \cr
 \cr
@@ -34,18 +22,7 @@ For each true model, two sets of true outer weights are available. The value of 
 \cr
 \cr
 \cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
-\cr
+\figure{modelPLSModeB.png}{Options: width=0.1in}
 \cr
 \cr
 \cr
@@ -53,7 +30,7 @@ Figure 2 True structural and measurement models
 }
 
 \value{Two files:
-	\item{text file}{A \code{.txt} file in ASCII format readable from R-project with \code{dget}.}
+  \item{text file}{A \code{.txt} file in ASCII format readable from R-project with \code{dget}.}
 	\item{csv file}{A \code{.csv} file.}}
 
 \author{Alba Martinez-Ruiz <amartine@ucsc.cl>, Claudia Martinez-Araneda <cmartinez@ucsc.cl>}

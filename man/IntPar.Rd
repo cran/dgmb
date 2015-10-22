@@ -15,7 +15,7 @@
 %\details{If necessary, more details than the description above}
 
 \value{A list with the following components:
-	\item{nat}{A vector with the nature of each construct, exogenous ("ex") or endogenous ("en").}
+  \item{nat}{A vector with the nature of each construct, exogenous ("ex") or endogenous ("en").}
 	\item{bex}{The number of exogenous constructs.}
 	\item{ben}{The number of endogenous constructs.}
 	\item{ind.ex}{The total number of manifest variables of exogenous constructs.}

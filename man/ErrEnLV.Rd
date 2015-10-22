@@ -15,7 +15,7 @@
 }
 
 \value{A list with the following components:
-	\item{std.error}{A vector with the standard deviation of disturbance terms of the endogenous constructs. The vector length is equal to the number of replications.}
+  \item{std.error}{A vector with the standard deviation of disturbance terms of the endogenous constructs. The vector length is equal to the number of replications.}
 	\item{elv}{An array with \code{N} matrices of dimension \code{n} times \code{ben} with the disturbance terms of the endogenous constructs.}}
 
 \author{Alba Martinez-Ruiz <amartine@ucsc.cl>}

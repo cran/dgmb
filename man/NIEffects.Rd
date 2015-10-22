@@ -14,7 +14,7 @@
 }
 
 \value{A list with the following components:
-	\item{a.nle}{An array with \code{N} matrices of dimension \code{n} times \code{ncol(rie)} with the scores of nonlinear effects.}
+  \item{a.nle}{An array with \code{N} matrices of dimension \code{n} times \code{ncol(rie)} with the scores of nonlinear effects.}
 	\item{a.ie}{An array with \code{N} matrices of dimension \code{n} times \code{ncol(rie)} with the scores of interaction effects.}}
 
 \author{Alba Martinez-Ruiz <amartine@ucsc.cl>}	
@@ -28,4 +28,3 @@ n <- 250
 nlie <- NIEffects(N,n,yex$y.ex,intpar$rie)
 attributes(nlie)}
 }
-

@@ -17,7 +17,7 @@
 }
 
 \value{A list with the following components:
-	\item{y.ex.tot}{An array with \code{N} matrices of dimension \code{n} times \code{ncol(y.ex)+ncol(a.nle)+} \cr \code{ncol(a.ie)} with the scores of exogenous constructs (linear, nonlinear, and interaction effects).}
+  \item{y.ex.tot}{An array with \code{N} matrices of dimension \code{n} times \code{ncol(y.ex)+ncol(a.nle)+} \cr \code{ncol(a.ie)} with the scores of exogenous constructs (linear, nonlinear, and interaction effects).}
 	\item{y.ex.cor}{An array with \code{N} matrices of dimension \code{ncol(y.ex)+ncol(a.nle)+} \cr \code{ncol(a.ie)} times \code{ncol(y.ex)+ncol(a.nle)+ncol(a.ie)} with the correlations between exogenous constructs (linear, nonlinear, and interaction effects).}}
 
 \author{Alba Martinez-Ruiz <amartine@ucsc.cl>}
@@ -31,4 +31,3 @@ n <- 250
 yexcor <- ExoLVsCor(N,n,intpar$bex,intpar$rie,yex$y.ex,nlie$a.nle,nlie$a.ie)
 attributes(yexcor)}
 }
-

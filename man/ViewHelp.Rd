@@ -6,7 +6,7 @@
 \usage{ViewHelp()}
 
 \value{A file:                        
-	\item{pdf file}{A help file including the description of the main functions of the dgmb-package.}}
+  \item{pdf file}{A help file including the description of the main functions of the dgmb-package.}}
 
 \references{Dalgaard's Peter (2002) \emph{Rnews: The Newsletter of the R Project}, Vol. 3.}
 

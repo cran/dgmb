@@ -1,2 +1,4 @@
 exportPattern("^[[:alpha:]]+")
-import(MASS,abind)
+import(MASS,abind,tcltk)
+importFrom("stats","cov","rnorm")
+importFrom("utils","browseURL","help.start","write.csv","write.table")

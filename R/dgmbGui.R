@@ -1,13 +1,13 @@
 dgmbGui <-
 function()
 {
-cat (" -------------------------------------------------\n")
-cat ("| dgmb: Simulating data for PLS structural models |\n")
-cat ("| Version: 1.1                                    |\n")                                 
-cat ("| Depends: abind, tcltk, MASS                     |\n")
-cat ("| Licence: GPL >= 2                               |\n")
-cat ("| System Requirements: tktable, BWidget           |\n")
-cat (" -------------------------------------------------\n")
+cat (" --------------------------------------------------\n")
+cat ("| Simulating Data for PLS Mode B Structural Models |\n")
+cat ("| Version: 1.2                                     |\n")                                 
+cat ("| Depends: abind, tcltk, MASS                      |\n")
+cat ("| Licence: GPL >= 2                                |\n")
+cat ("| System Requirements: tktable, BWidget            |\n")
+cat (" --------------------------------------------------\n")
 #cat ("Linux users must to download the bwidget and Tktable2.10 packages\n from http://sourceforge.net/projects/tktable/files/tktable/\n")
 
 #packages 
@@ -19,7 +19,7 @@ tclRequire("Tktable")
 tt <-tktoplevel()
 tkwm.geometry(tt, "780x360") 
 tkwm.resizable(tt, FALSE, FALSE)
-tktitle(tt) <- "dgmb: Simulating data for PLS structural models (Beta 1.1)"
+tktitle(tt) <- "dgmb: Simulating Data for PLS Mode B Structural Models"
 topMenu <- tkmenu(tt)
 tkconfigure(tt, menu=topMenu)
 
@@ -35,7 +35,7 @@ tkadd(topMenu,"cascade",label="Help",menu=ayudaMenu)
 tkadd(fileMenu,"command",label="Exit",command=function() tkdestroy(tt))
 
 #About Menu
-tkadd(AcercadeMenu,"command",label="Version",command = function () tkmessageBox(title="Version",message="dgmbGui (Beta 1.1)", icon="info", type="ok"))
+tkadd(AcercadeMenu,"command",label="Version",command = function () tkmessageBox(title="Version",message="dgmbGui (Beta 1.2)", icon="info", type="ok"))
 tkadd(AcercadeMenu,"command",label="Developed by",command = function () tkmessageBox(title="Developed by",message="Dr. Alba Ester Martinez Ruiz, amartine@ucsc.cl \nMg. Claudia Loreto Martinez Araneda, cmartinez@ucsc.cl"))
 
 

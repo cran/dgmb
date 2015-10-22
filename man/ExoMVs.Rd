@@ -24,4 +24,3 @@ n <- 250
 xex <- ExoMVs(N,n,intpar$ind.ex)
 attributes(xex)}
 }
-

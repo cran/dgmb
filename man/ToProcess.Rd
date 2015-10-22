@@ -14,7 +14,7 @@
   \item{eq}{A boolean variable. \code{TRUE} for equal outer weights; \code{FALSE} for different combinations of outer weights.}}
 
 \value{Two files:
-	\item{text file}{A \code{.txt} file in ASCII format readable from R-project with \code{dget}.}
+  \item{text file}{A \code{.txt} file in ASCII format readable from R-project with \code{dget}.}
 	\item{csv file}{A \code{.csv} file.}}
   
 \references{Dalgaard's Peter (2002) \emph{Rnews: The Newsletter of the R Project}, Vol. 3.}
